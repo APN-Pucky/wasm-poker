@@ -10,8 +10,8 @@
 <body>
   <div id="main"></div>
   <script type="module">
-    import init from "/./assets/dioxus/wasm-poker.js";
-    init("/./assets/dioxus/wasm-poker_bg.wasm").then(wasm => {
+    import init from "/./wasm_poker/assets/dioxus/wasm-poker.js";
+    init("/./wasm_poker/assets/dioxus/wasm-poker_bg.wasm").then(wasm => {
       if (wasm.__wbindgen_start == undefined) {
         wasm.main();
       }
