@@ -1,0 +1,20 @@
+[package]
+name = "wasm-poker"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+rs_poker = "3.0.0-beta.25"
+rand = "*"
+dioxus = {version = "*" , features=["web"]}
+dioxus-web = "*"
+getrandom = { version = "0.2", features = ["js"] }
+chrono = { version = "0.4", features = ["wasmbind"] }
+console_error_panic_hook = "*"
+
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
