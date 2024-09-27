@@ -191,7 +191,7 @@ use rand::Rng;
             // assert length of hands same
             assert!( ! hands.iter().any(|h| h.len() != hands[0].len()));
             
-            console::log_1(&format!("Hands = {:?}", hands).into());
+            //console::log_1(&format!("Hands = {:?}", hands).into());
 
             //println!("Hands = {:?}", hands);
             let mut g = MonteCarloGame::new(hands).expect("Should be able to create a game.");
