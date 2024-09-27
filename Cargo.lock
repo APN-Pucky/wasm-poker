@@ -2034,6 +2034,8 @@ dependencies = [
  "getrandom",
  "rand",
  "rs_poker",
+ "wasm-bindgen",
+ "web-sys",
 ]
 
 [[package]]
